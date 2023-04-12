@@ -3,4 +3,4 @@ on: [push]
 
 jobs:
   call-workflow:
-    uses: legoktm/test/.github/workflows/ci.yml@main
+    uses: legoktm/test2/.github/workflows/ci.yml@main
