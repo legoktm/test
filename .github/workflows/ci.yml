@@ -1,0 +1,6 @@
+name: CI
+on: [push]
+
+jobs:
+  call-workflow:
+    uses: legoktm/test/ci.yml@main
