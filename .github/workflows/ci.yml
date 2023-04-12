@@ -2,5 +2,5 @@ name: CI
 on: [push]
 
 jobs:
-  call-workflow:
+  ci:
     uses: legoktm/test2/.github/workflows/ci.yml@main
